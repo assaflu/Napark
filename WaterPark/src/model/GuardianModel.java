@@ -23,10 +23,5 @@ public class GuardianModel {
 	  * public Ride checkChildLocation(Child child);
 	  */
 	
-	//hello
-	//im trying something else
-	//assaf you are stupid
-	//test
-	//a very nice test
-	//hkjhkjh
+	//hey all
 }

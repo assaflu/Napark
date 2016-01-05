@@ -44,7 +44,4 @@ public class GuardianModel {
 	  * public Ride checkChildLocation(Child child);
 	  */
 	
-	//hey all
-	//try to merge
-	//try to merge
 }

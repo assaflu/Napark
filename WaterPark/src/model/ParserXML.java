@@ -23,9 +23,12 @@ public class ParserXML {
 			//TODO throw exception - no input files.
 		}
 		String fileName = args[1];
-		if(fileName==null){
-			//TODO something
+		if(!fileName.endsWith(".xml")){
+			//TODO not an xml file do sometjing
 		}
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder(); 
+		Document doc = db.parse(new File(fileName));
 		
 	}
 }
